@@ -1,0 +1,186 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  font-family: 'Secular One', sans-serif;
+}
+
+body{
+  margin: 0;
+  background-image:url('../images/final-bg.jpg'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrapper{
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  perspective: 10px;
+  /* background-color: rgb(116, 116, 255); */
+  /* background-image:url(bg-image.jpg); */
+}
+
+header{
+  position: relative;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  transform-style: preserve-3d;
+  z-index: -1;
+  
+}
+
+.bg,
+.fg,
+.title{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.bg{
+  transform: translateZ(-20px) scale(3.1);
+}
+
+.fg{
+  transform: translateZ(-12px) scale(2);
+  height: 50%;
+  width: 50%;
+}
+
+/* .title{
+  font-size: 7rem;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-shadow: 0 0 7px black;
+
+} */
+
+.title{
+  transform: translateZ(-6px) scale();
+  height: auto;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+  /* transform: translateX(-50%) scale(); */
+  /* top: 10rem; */
+  bottom: 3rem;
+  /* left: 50%; */
+}
+
+/* section{
+  background-color: #c49efd;
+  color: white;
+  padding: 5rem 0;
+
+} */
+
+/* goku part */
+.parallaxone{
+  background-image: url(../images/goku.webp);
+  width: 100%;
+  height: 800px;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+.parallaxone h2{
+  position: relative;
+  left: 400px;
+  top: 300px;
+  width: 290px;
+  height: 70px;
+  padding: 10px;
+  padding-bottom: 60px;
+  background-color: black;
+  color: white;
+  font-size: 6rem;
+  text-align: center;
+}
+
+/* vegeta part  */
+.parallaxtwo{
+  background-image: url(../images/vegeta.jpg);
+  width: 100%;
+  height: 800px;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+.parallaxtwo h2{
+  position: relative;
+  left: 400px;
+  top: 300px;
+  width: 400px;
+  height: 70px;
+  padding: 10px;
+  padding-bottom: 60px;
+  background-color: black;
+  color: white;
+  font-size: 6rem;
+  text-align: center;
+}
+
+/* gohan part */
+.parallaxthree{
+  background-image: url(../images/gohan.webp);
+  width: 100%;
+  height: 800px;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+.parallaxthree h2{
+  position: relative;
+  left: 300px;
+  top: 300px;
+  width: 380px;
+  height: 100px;
+  padding: 10px;
+  padding-bottom: 35px;
+  background-color: black;
+  color: white;
+  font-size: 6rem;
+  text-align: center;
+}
+
+/* trunks part */
+.parallaxfour{
+  background-image: url(../images/trunks.webp);
+  width: 100%;
+  height: 800px;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+.parallaxfour h2{
+  position: relative;
+  left: 250px;
+  top: 300px;
+  width: 400px;
+  height: 100px;
+  padding: 10px;
+  padding-bottom: 40px;
+  background-color: black;
+  color: white;
+  font-size: 6rem;
+  text-align: center;
+}
+
+.para{
+  padding: 50px;
+  text-align: center;
+  height: 400px;
+  /* background-color: black; */
+  color: white;
+  font-size: 32px;
+  background-image: url(../images/p-tag-bg.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.yeet{
+  text-align: center;
+  padding: 20px;
+  text-shadow: 0 0 10px white;
+}
